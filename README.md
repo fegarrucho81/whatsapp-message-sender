@@ -20,10 +20,12 @@ This Python script allows you to automatically send pre-defined messages to a li
 **How to Use:**  
 1. Clone or download this repository.
 2. Install the required Python packages.
-3. Download chromedriver.exe and place it in the project folder (or specify the correct path in the script).
+    ```bash
+    pip install selenium
+3. Download chromedriver.exe and place it in the project folder (or specify the correct path in the script). [ChromeDriver Download](https://developer.chrome.com/docs/chromedriver/downloads?hl=pt-br)
 4. Run the script:
     ```bash
-    python whatsapp_sender.py
+    python app.py
 5. Scan the QR Code when asked.
 6. After the QR Code is scanned, return to the VS Code terminal, and press 'Enter'.
 7. The script will open each chat and send the message automatically.
@@ -54,10 +56,12 @@ Este script Python permite enviar automaticamente mensagens predefinidas para um
 **Como usar:**
 1. Clone ou baixe este repositório.
 2. Instale os pacotes Python necessários.
-3. Baixe o arquivo chromedriver.exe e coloque-o na pasta do projeto (ou especifique o caminho correto no script).
+    ```bash
+    pip install selenium
+3. Baixe o arquivo chromedriver.exe e coloque-o na pasta do projeto (ou especifique o caminho correto no script). [ChromeDriver Download](https://developer.chrome.com/docs/chromedriver/downloads?hl=pt-br)
 4. Execute o script:
     ```bash
-    python whatsapp_sender.py
+    python app.py
 5. Leia o código QR quando solicitado.
 6. Após a leitura do QR Code, retorne ao terminal do VS Code e pressione "Enter".
 7. O script abrirá cada chat e enviará a mensagem automaticamente.
